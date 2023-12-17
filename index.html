@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="akshaya team.jpg"
+              alt="untoldcoding"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="untoldcoding">Akshaya Ajikumar</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:akshayavillwadri@gmail.com" class="contact-link"
+                  >akshayavillwadri@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+64 2108795802" class="contact-link"
+                  >+64 210 8795802</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2004-10-01">October 01, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Villwadri Chunnakara,Kerala,India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.facebook.com/profile.php?id=100094566456601&mibextid=ZbWKwL" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            
+
+            <li class="social-item">
+              <a href="https://instagram.com/villwadri?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a diligent student with a specialization in software and 
+              web development. My journey has been marked by a dedicated 
+              pursuit of proficiency in front-end development, where I've cultivated expertise in HTML,
+               CSS, JavaScript, jQuery, Java, Python, and SQL.
+            </p>
+
+            <p>
+              Driven by an insatiable passion for continuous learning and growth, 
+              I've expanded my knowledge base to include UX and UI design. Additionally, 
+              I've delved into advanced technologies like React and embraced various programming languages 
+              to stay at the forefront of the dynamic field of software and web development.
+              My commitment revolves around innovation and excellence. I am resolute in my dedication to
+             contributing my evolving skills and expertise to the realm of software and web development. 
+             Through my academic journey and hands-on experiences, I aspire to play a key role in crafting 
+             solutions that seamlessly blend functionality, aesthetics, and user-friendliness.
+            </p>
+
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    As a dedicated student, I strive to develop innovative and high-quality designs
+                     that reflect both creativity and professionalism. With a commitment to excellence 
+                     and continuous learning, I aim to showcase my evolving skills 
+                    in the field, creating cutting-edge designs as I pursue my academic journey.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    As a dedicated web development student, I aim to create high-quality websites
+                     that reflect my commitment to excellence. My goal is to elevate my skills to a professional level
+                     delivering innovative websites that meet the needs of today's digital landscape.
+                  </p>
+                </div>
+              </li>
+
+              
+          </section>
+       
+
+          <!--
+          - testimonials
+        -->
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Leisure time</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="sketches.png"
+                    alt="Sketches"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Sketches
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Since a young age, I have had a keen interest in sketching and 
+                    have participated in numerous competitions earning several 
+                    certificates for my work. Even now, I continue to pursue my passion 
+                    for sketching in my leisure time.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="origami.png"
+                    alt="Crafts"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Crafts
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    In my free time, I enjoy creating various crafts, such 
+                    as paper crafts and repurposing empty bottles, among others. 
+                    I have even submitted my work for exhibitions and for others to enjoy.
+                     I find great joy in making new things and being creative.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="palette.png"
+                    alt="painting"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Painting 
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I specialize in canvas painting and have a passion for all
+                     other forms of painting as well. My unique talent lies in painting 
+                     on dresses, in addition to creating beautiful canvas paintings.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="poetry.png"
+                    alt="Poem"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Poems
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I usually write poems when I feel happy or sad, and 
+                    I have a natural talent for creating beautifully creative poems.
+                     My teachers have always appreciated my work and have often commented
+                      on my ability to write in a captivating and elegant manner.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="digital-drawing.png"
+                    alt="digital-drawing"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Digital Painting 
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    It was in the 8th grade when I realized my talent for 
+                    digital painting after entering a competition. Since then, 
+                    I have been actively pursuing digital painting and have honed my skills in this art form.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+        - testimonials modal
+      -->
+
+      <div class="modal-container" data-modal-container>
+        <div class="overlay" data-overlay></div>
+
+        <section class="testimonials-modal">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="modal-img-wrapper">
+            <figure class="modal-avatar-box">
+              <img
+                src="sketches.png"
+                alt="Sketches"
+                width="80"
+                data-modal-img
+              />
+            </figure>
+
+            <img src="icon-quote.svg" alt="quote icon" />
+          </div>
+
+          <div class="modal-content">
+            <h4 class="h3 modal-title" data-modal-title>Sketches</h4>
+
+           
+
+            <div data-modal-text>
+              <p>
+                Since a young age, I have had a keen interest in sketching and 
+                have participated in numerous competitions earning several 
+                certificates for my work. Even now, I continue to pursue my passion 
+                for sketching in my leisure time.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+        <!--
+        - clients
+      -->
+
+        
+      </article>
+
+      <!--
+      - #RESUME
+    -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                MIT - Bachelors Of Digital Technologies
+              </h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                I am currently pursuing a Bachelor's degree in Digital 
+                Technology with a major in Software and Development at 
+                MIT and have been actively continuing my studies in the program.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sree Narayan Central School</h4>
+
+              <span>2016 — 2022</span>
+
+              <p class="timeline-text">
+                I completed my schooling from 7th to 12th grade at 
+                Sree Narayan Central School in the year 2022.
+              </p>
+              <h4 class="h4 timeline-item-title">Secondary Education</h4>
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                 Field of Study: Commerce Computer
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Indian School Darsait 
+              </h4>
+
+              <span>2007 — 2016</span>
+
+              <p class="timeline-text">
+                I attended Indian School Darsait in Oman from 
+                kindergarten until the middle of my 7th grade.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">jQuery</h5>
+                <data value="69">69%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 69%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="69">69%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 69%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX Design</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+          
+          
+          
+        
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+             
+
+
+             
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                
+
+                
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="responive web ddesign .png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Responsive Web Design</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              
+            </ul>
+          </section>
+        </article>
+
+
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.992556621686!2d174.87221051091026!3d-36.98611087207867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4dc6ff1621ff%3A0x41acf8eb64c7eb02!2s5%20Sohum%20Place%2C%20Manukau%20City%20Centre%2C%20Auckland%202104!5e0!3m2!1sen!2snz!4v1702372614164!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
